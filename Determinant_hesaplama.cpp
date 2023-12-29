@@ -1,11 +1,13 @@
 #include<stdio.h>
 main()
 {
-	// Kullanıcıdan 4 tane sayı girdisi alıp bu sayıları matris içine yerleştiren ve bu matrisin determinantını hesaplayan program.
+	// KullanÄ±cÄ±dan 4 tane sayÄ± girdisi alÄ±p bu sayÄ±larÄ± matris iÃ§ine yerleÅŸtiren ve bu matrisin determinantÄ±nÄ± hesaplayan program.
 	int i,j;
 	int a,b,c,d;
 	int determinant;
 	int matris[2][2];
+
+	printf("4 tane sayi giriniz:");
 	
 	for(i=0;i<2;i++)
 	{
@@ -43,7 +45,7 @@ main()
 	
 	
 	
-	printf("%d",determinant);
+	printf("Determinant:%d",determinant);
 	
 	
 	
