@@ -1,7 +1,7 @@
 #include<stdio.h>
 main()
 {
-	//Kullanýcýdan alýnan 9 tane sayýyý 3x3lük matris haline getirip determinantýný bulan program.
+	//Kullanicidan alinan 9 tane sayiyi 3x3lÃ¼k matris haline getirip determinantini bulan program.
 	
 	
 	int s11,s12,s13;
@@ -33,17 +33,17 @@ main()
 		printf("|\n");
 	}
 	
-	// 1. Satýr elemanlarý
+	// 1. Satir elemanlari
 	s11= matris[0][0];
 	s12= matris[0][1];
 	s13= matris[0][2];
 	
-	//2. Satýr elemanlarý
+	//2. Satir elemanlari
 	s21= matris[1][0];
 	s22= matris[1][1];
 	s23= matris[1][2];
 	
-	//3. Satýr elemanlarý
+	//3. Satir elemanlari
 	s31= matris[2][0];
 	s32= matris[2][1];
 	s33= matris[2][2];
